@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Jaztiene Dianne Cerado</title>
+  </head>
+  <body>
+    <header>
+
+      <div class="section__container header__container">
+
+        <!-- navbar -->
+        <nav>
+          <div class="nav__logo">JD</div>
+          <ul class="nav__links">
+            <li class="link">Home</li>
+            <li class="link">About</li>
+            <li class="link">Portfolio</li>
+            <li class="link">Blog</li>
+            <li class="link">Contact</li>
+          </ul>
+          <div class="nav__socials">
+            <span><i class="ri-github-fill"></i></span>
+            <span><i class="ri-linkedin-fill"></i></span>
+            <span><i class="ri-twitter-fill"></i></span>
+          </div>
+        </nav>
+        <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">JD</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <div class="nav__socials">
+              <span><i class="ri-github-fill"></i></span>
+              <span><i class="ri-linkedin-fill"></i></span>
+              <span><i class="ri-twitter-fill"></i></span>
+            </div>
+          </div>
+        </nav> -->
+
+        <!-- main -->
+        <!-- <div class="header__content">
+          <div class="header__details">
+            <h1>Hello,<br />I am Jaztiene Dianne Cerado <br> Full Stack Developer</h1>
+            <button>Hire Me</button>
+          </div>
+          <div class="header__image">
+            <img src="assets/header.png" alt="header" />
+          </div>
+        </div>
+      </div> -->
+      <div class="header__content">
+        <div class="header__details">
+          <h1>Hello,<br />I am Jaztiene Dianne  <br> Full Stack Developer</h1>
+          <button class="btn btn-primary" id="hireMeButton">Hire Me</button>
+        </div>
+        <div class="header__image">
+          <img src="assets/header.png" alt="header" />
+        </div>
+      </div>
+      
+      <script>
+        document.getElementById('hireMeButton').addEventListener('click', function() {
+          window.location.href = "mailto:jaztienecerado@gmail.com";
+        });
+      </script>
+      
+      
+      
+    </div>
+    </header>
+
+    <section class="section__container about__container">
+      <p class="section__subheader">ABOUT ME</p>
+      <h2 class="section__header">MY PASSION</h2>
+      <div class="about__grid">
+        <div class="about__image">
+          <img src="assets/about.jpg" alt="about" />
+        </div>
+        <div class="about__content">
+          <p>
+            Embarking on an exciting journey into the world of web development, as a starting full stack developer, 
+            she exhibits a strong passion for technology and an unwavering desire to devise innovative solutions. 
+            With her sights set on delving into both front-end and back-end development, she embraces the challenges that lie ahead.
+            <br>Recognizing the profound impact her work can have on users and businesses, 
+            she strives to craft applications that are robust, scalable, and secure, 
+            ultimately providing tangible value to end-users. Whether she is engrossed in a personal project or 
+            collaborating within a development team, she approaches each task with a professional demeanor, meticulous attention to detail, 
+            and an unwavering commitment to achieving excellence.
+          </p>
+          <div class="about__btns">
+            <!-- <button>Download CV</button>
+            <button>My Work</button> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+
+    <section class="section__container client__container">
+      <p class="section__subheader">WORKS</p>
+      <h2 class="section__header">MY PROJECTS</h2>
+
+      <div class="client__grid">
+        <div class="client__content">
+          <h4>MERN BLOG</h4>
+          <h5>FULL STACK WEB APPLICATION</h5>
+          <p>
+            A MERN blog is a full-stack web application built using the MERN stack, which consists of four key technologies: MongoDB (for the database), Express.js (for the backend framework), React (for the frontend framework), and Node.js (for the server environment).
+
+In a MERN blog, users can create, read, update, and delete blog posts. The application allows for user registration and authentication, enabling users to have personalized profiles and the ability to comment on blog posts. It typically includes features such as real-time updates, search functionality, and a responsive and user-friendly interface.
+          </p>
+          
+        </div>
+        <div class="client__image">
+          <a href="https://github.com/jaztiene/mern-blog" target="_blank">
+            <img src="assets/blog.png" alt="client" />
+          </a>
+        </div>
+      </div>
+
+      <div class="client__grid">
+        <div class="client__content">
+          <h4>PIZZA TIME</h4>
+          <h5>FULL STACK WEB APPLICATION</h5>
+          <p>
+            "Pizza Time" is a feature-rich e-commerce platform for a fictional restaurant, offering a diverse menu that includes pizza, sushi, and pasta. Developed using React and Laravel, it delivers a seamless user experience with dynamic components, spatial awareness through Leaflet Maps, pagination for efficient menu exploration, and smooth animations powered by Framer Motion. The use of UUID ensures robust data management, while React Lazy Load optimizes performance. MySQL2 provides a reliable database backend, and Express.js streamlines the ordering process, allowing for item customization and secure payment handling. With user registration, login, and profile management, "Pizza Time" enhances personalization, and Google reCAPTCHA ensures secure communication. It's a fusion of culinary delights and cutting-edge technology, making online food ordering a convenient and enjoyable journey for users.
+          </p>
+          
+        </div>
+        <div class="client__image">
+          <a href="https://pizza-time-with-react.vercel.app/" target="_blank">
+            <img src="assets/pizza.png" alt="client" />
+          </a>
+        </div>
+      </div>
+
+      <div class="client__grid">
+        <div class="client__content">
+          <h4>PC BUILD</h4>
+          <h5>FULL STACK WEB APPLICATION</h5>
+          <p>
+            The "PC Build" full-stack web application, powered by PHP Laravel on the backend and Bootstrap on the frontend, simplifies the process of customizing and configuring personal computers. Users can effortlessly select and customize computer components while the application's MySQL database manages user profiles, PC configurations, and order details. With real-time price estimation, compatibility checks, and secure order processing, "PC Build" offers an intuitive and efficient platform for users to create and order their ideal PC setups.
+          </p>
+         
+        </div>
+        <div class="client__image">
+          <a href="https://github.com/jaztiene/pcbuild" target="_blank">
+            <img src="assets/pcbuild.png" alt="client" />
+          </a>
+        </div>
+      </div>
+
+      <div class="client__grid">
+        <div class="client__content">
+          <h4>E-COMMERCE</h4>
+          <h5>FULL STACK WEB APPLICATION</h5>
+          <p>
+            The "E-Commerce" full-stack web application leverages PHP Laravel for the backend and utilizes XAMPP with PHPMyAdmin for the MySQL database management. This platform offers a comprehensive online shopping experience, enabling users to browse, search, and purchase a wide range of products. The application seamlessly handles user registration, authentication, and order processing. It allows users to view product details, add items to their shopping cart, securely complete transactions, and track order histories. With its robust database system and user-friendly interface, the "E-Commerce" web application provides an efficient and secure platform for online retail.
+          </p>
+         
+        </div>
+        <div class="client__image">
+          <a href="https://github.com/CyrusGerozaga2001/final-mini2" target="_blank">
+            <img src="assets/ecommerce.png" alt="client" />
+          </a>
+        </div>
+      </div>
+
+      <div class="client__grid">
+        <div class="client__content">
+          <h4>NETFLIX CLONE</h4>
+          <h5>FRONT-END</h5>
+          <p>
+            The "Netflix Clone" frontend is a dynamic web application crafted with HTML, CSS, Bootstrap, and JavaScript, meticulously designed to mirror the captivating user interface and design elegance of the renowned streaming giant, Netflix. This immersive platform offers users a visually enticing and highly responsive interface, empowering them to seamlessly navigate through an extensive catalog of movies and TV shows. With the inclusion of JavaScript, users can now enjoy an even more interactive experience, featuring functionalities like dynamic carousels for effortless content browsing, modal windows that reveal in-depth details upon title selection, interactive buttons for playing trailers and adding titles to personal watchlists, a real-time search bar that efficiently filters and displays results, and robust user authentication capabilities, enabling personalized recommendations and tracking watch histories. The "Netflix Clone" frontend not only emulates the visual allure of Netflix but also enhances the user journey with captivating interactivity, making it an ideal starting point for users to explore and adapt for their own web projects.
+          </p>
+          
+        </div>
+        <div class="client__image">
+          <a href="https://github.com/CyrusGerozaga2001/mini-clone-proj/tree/main/mini" target="_blank">
+            <img src="assets/netflix.png" alt="client" />
+          </a>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="section__container service__container">
+      <p class="section__subheader">WHAT CAN I DO</p>
+      <h2 class="section__header">MY SERVICES</h2>
+      <div class="service__grid">
+        <div class="service__card">
+          <p class="service__card__subtitle">Intermediate</p>
+          <h4 class="service__card__title">Web<br />Development</h4>
+          <p class="service__card__description">
+            Committed to delivering top-notch web design services that are meticulously customized to cater to the unique requirements of valued clients.
+          </p>
+          <span class="service__card__icon"><i class="ri-add-line"></i></span>
+        </div>
+        <div class="service__card">
+          <p class="service__card__subtitle">Intermediate</p>
+          <h4 class="service__card__title">Product<br />Design</h4>
+          <p class="service__card__description">
+            Utilizing the latest web technologies and development tools, the focus is on creating websites characterized by speed, security, and scalability, ensuring that clients receive high-quality digital solutions tailored to their specific needs.
+          </p>
+          <span class="service__card__icon"><i class="ri-add-line"></i></span>
+        </div>
+        <div class="service__card">
+          <p class="service__card__subtitle">Intermediate</p>
+          <h4 class="service__card__title">Graphics<br />Design</h4>
+          <p class="service__card__description">
+            The approach is collaborative, and feedback from clients is encouraged throughout the process to meet their expectations effectively.
+          </p>
+          <span class="service__card__icon"><i class="ri-add-line"></i></span>
+        </div>
+        <div class="service__card">
+          <p class="service__card__subtitle">Intermediate</p>
+          <h4 class="service__card__title">Software<br />Development</h4>
+          <p class="service__card__description">
+            The utilization of the latest web technologies and development tools is employed to create websites characterized by speed, security, and scalability.
+          </p>
+          <span class="service__card__icon"><i class="ri-add-line"></i></span>
+        </div>
+        <div class="service__card">
+          <p class="service__card__subtitle">Intermediate</p>
+          <h4 class="service__card__title">Project<br />Management</h4>
+          <p class="service__card__description">
+            The approach followed is collaborative, and clients' feedback is actively encouraged throughout the process to ensure that their expectations are met effectively.
+          </p>
+          <span class="service__card__icon"><i class="ri-add-line"></i></span>
+        </div>
+        <div class="service__card">
+          <p class="service__card__subtitle">Intermediate</p>
+          <h4 class="service__card__title">Web<br />Designing</h4>
+          <p class="service__card__description">
+            The dedication is focused on providing high-quality web design services that are precisely tailored to meet the specific needs of clients.
+          </p>
+          <span class="service__card__icon"><i class="ri-add-line"></i></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="section__container blog__container">
+      <p class="section__subheader">NEWS & BLOG</p>
+      <h2 class="section__header">What's new for me</h2>
+      <div class="blog__grid">
+        <div class="blog__card">
+          <div class="blog__card__header">
+            <h4>Carlo Ople</h4>
+            <p>Sneaker Guy</p>
+          </div>
+          <h3 class="blog__title">
+            Responsive Web Design: This topic focuses on designing and
+            developing websites.
+          </h3>
+          <p class="blog__description">
+            It involves using HTML, CSS, and JavaScript techniques to create a
+            user-friendly experience across desktops, tablets, and mobile
+            devices.
+          </p>
+        </div>
+        <div class="blog__card">
+          <div class="blog__card__header">
+            <h4>Xtian C</h4>
+            <p>PC Builder</p>
+          </div>
+          <h3 class="blog__title">
+            User Experience (UX) Design: UX design is concerned with creating
+            websites.
+          </h3>
+          <p class="blog__description">
+            It involves understanding user behavior, conducting user research,
+            and designing interfaces that meet users' needs and expectations.
+          </p>
+        </div>
+        <div class="blog__card">
+          <div class="blog__card__header">
+            <h4>Donny Pangilinan</h4>
+            <p>Nagmomotor</p>
+          </div>
+          <h3 class="blog__title">
+            Web Security: Web security is a critical aspect of web development.
+          </h3>
+          <p class="blog__description">
+            It involves implementing security measures such as encryption,
+            authentication, and input validation to ensure the confidentiality,
+            integrity, and availability of web systems.
+          </p>
+        </div>
+      </div>
+      <div class="blog__nav">
+        <span><i class="ri-arrow-left-line"></i></span>
+        <span><i class="ri-arrow-right-line"></i></span>
+      </div>
+    </section> -->
+
+    <section class="section__container contact__container">
+      <img src="assets/bg-dots.png" alt="bg" />
+      <img src="assets/bg-dots.png" alt="bg" />
+      <div class="contact__details">
+        <h3>Contact Me</h3>
+        <h2 onclick="window.location.href = 'mailto:jaztienecerado@gmail.com';">
+          <a href="mailto:jaztienecerado@gmail.com">jaztienecerado@gmail.com</a>
+        </h2>
+      </div>
+    </section>
+
+    <footer class="section__container footer__container">
+      <div class="footer__nav">
+        <span>Home</span>
+        <span>About</span>
+        <span>Portfolio</span>
+        <span>Blog</span>
+        <span>Contact</span>
+      </div>
+      <div class="footer__socials">
+        <span>
+          <a href="https://github.com/jaztiene" target="_blank"><i class="ri-github-fill"></i></a>
+        </span>
+        
+        <span>
+          <a href="https://www.linkedin.com/in/jaztienediannecerado/" target="_blank"><i class="ri-linkedin-fill"></i></a>
+        </span>
+        <span>
+          <a href="mailto:jaztienecerado@gmail.com"><i class="ri-mail-fill"></i></a>
+        </span>
+        
+      </div>
+    </footer>
+    <div class="footer__bar">
+      Copyright © Jaztiene Dianne Cerado. All rights reserved.
+    </div>
+  </body>
+</html>
